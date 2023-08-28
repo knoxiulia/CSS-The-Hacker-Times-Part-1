@@ -31,3 +31,17 @@ h1 {
 h2 {
     font-family: roboto slab;
 }
+
+li {
+    color: #777;
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 10px;
+    font-size: 10px;
+}
+
+nav {
+    border-top: solid black;
+    border-bottom: solid black;
+    border-color: #777;
+}
