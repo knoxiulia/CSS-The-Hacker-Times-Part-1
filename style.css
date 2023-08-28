@@ -9,7 +9,7 @@ body {
 .newspaper-container {
     background-color: white;
     width: 700px;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: #ddd;
     padding: 40px 50px;
     padding-left: 55px;
@@ -17,6 +17,7 @@ body {
 }
 
 .date {
+    font-size: 12px;
     color: #777;
     text-align: left;
 }
@@ -44,4 +45,35 @@ nav {
     border-top: solid black;
     border-bottom: solid black;
     border-color: #777;
+}
+
+h5 {
+    color: #dd3232;
+}
+
+p {
+    padding: 50px;
+    font-size: 15px;
+    text-align:justify;
+}
+
+main p {
+    border-bottom: solid;
+    border-color: #777;
+}
+
+.first-pic {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+#tabs, #caffeine {
+    display: inline-block;
+    width: 330px;
+}
+
+.more-articles p {
+    text-align: justify;
+    padding: 23px
 }
